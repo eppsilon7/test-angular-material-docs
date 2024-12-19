@@ -1,0 +1,30 @@
+{
+  "name": "angular-material-docs",
+  "version": "19.1.0-next.2",
+  "description": "Build of the Angular Material Docs static website",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "concurrently \"serve material-angular-io\" \"open-cli http://localhost:3000\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vizualization-lab/angular-material-docs.git"
+  },
+  "keywords": [
+    "angular",
+    "material"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vizualization-lab/angular-material-docs/issues"
+  },
+  "homepage": "https://github.com/vizualization-lab/angular-material-docs#readme",
+  "dependencies": {
+    "concurrently": "^9.1.0",
+    "open": "^10.1.0",
+    "open-cli": "^8.0.0",
+    "serve": "^14.2.4"
+  }
+}
